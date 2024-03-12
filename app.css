@@ -1,0 +1,112 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.background{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+    width: 25vw;
+}
+.toggole-buttons{
+    background-color: lightgray;
+    display: flex;
+    padding: 4px;
+    border-radius: 6px;
+    justify-content: space-around;
+}
+.contactBtn{
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+    padding: 8px 18px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.groupsBtn{
+    border: none;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 8px 18px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.contacts-num{
+    color: rgb(178, 189, 189);
+    font-size: 12px;
+    margin-top: 15px;
+}
+.groups{
+    display: none;
+}
+.chat{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+
+}
+.chat:hover{
+    background-color: rgb(221, 216, 216);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.sendBtn{
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    border: none;
+    padding: 8px 18px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.details > h1{
+    font-size: 18px;
+    margin: 2px;
+    margin-bottom: 5px;
+}
+.details > p {
+    font-size: 14px;
+    color: rgb(136, 141, 141);
+    margin: 0px;
+}
+.details-box{
+    display: flex;
+}
+.add-contact{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    cursor: pointer;
+
+}
